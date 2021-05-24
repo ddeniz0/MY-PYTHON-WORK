@@ -1,2 +1,0 @@
-#MY-PYTHON-WORKS
-Python
