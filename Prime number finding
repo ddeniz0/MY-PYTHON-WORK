@@ -1,0 +1,25 @@
+def prime(number):
+    if(number == 1):
+        return False 
+
+    elif(number==2): 
+        return True #
+
+    else:
+        for i in range(2,number): 
+            if(number % i == 0): 
+                return False
+        return True 
+print("press "f" to exit the program")
+while True:
+
+    number = input("number: ") 
+    
+    if number == "f":
+        break
+    else: 
+        number = int(number) 
+        if(prime(number)): 
+            print("Prime Number: ",number)
+        else:
+            print("Not a prime number",number)
